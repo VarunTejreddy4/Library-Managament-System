@@ -3,10 +3,7 @@ def studentlogin():
     def clear_screen():
         if os.name == 'nt':
             os.system('cls')
-    login_details = {
-    "23P81A6234": "123",
-    "23P81A5678": "mypassword"
-}
+    login_details = {}
     def login_credentials(nam,passw):
         login_details[nam]=passw
     def check_password_strength(password):
